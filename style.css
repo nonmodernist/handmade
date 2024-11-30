@@ -137,21 +137,21 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--main);
+  background-color: var(--primary);
 }
 li.nav {
   float: left;
 }
 li.nav a {
   display: block;
-  color: var(--bg);
+  color: var(--grey);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 ul.nav li.nav a:hover:not(.active){
-  background-color: var(--accent);
+  background-color: var(--primary);
 }
 .active {
-    background-color: var(--accent);
+    background-color: var(--primary);
 }

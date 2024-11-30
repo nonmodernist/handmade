@@ -1,14 +1,29 @@
+/* Global variables for changing colours across the site */
+:root {
+    --accent: #ed642b;
+    --main: #1e1e1e;
+    --light: #aeac95;
+    --lighter: #e7e7da;
+    --border: #ed772e;
+    --bg: #fff;
+}
+
 body {
-  background: #fff;
-  color: #333;
+  background: var(--bg);
+  color: var(--main);
   font-family: sans-serif;
+  font-size: 1.1em;
   display: block;
   text-align: left;
   width: 800px;
   margin: 0 auto;
 }
 
-a {
-  color: #bf616a;
+a, a:visited {
+  color: var(--accent);
+  text-decoration: none;
 }
 
+a:hover, a:focus {
+    text-decoration: underline wavy;
+}
